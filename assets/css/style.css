@@ -1,3 +1,85 @@
+* {
+  box-sizing: border-box;
+}
 
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .header__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header__content .img {
+    margin-bottom: 0.5rem;
+    width: 45%;
+    height: auto;
+  }
+}
+.button {
+  background-color: #ffaf6d;
+  color: #000000;
+}
+.button:hover {
+  background-color: #ffffff;
+}
+
+.navbar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbara {
+  text-decoration: none;
+}
+
+.navbar-nav__link {
+  color: #ffffff;
+}
+.navbar-nav__link:hover {
+  color: #ffa500;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar__link-bars {
+  color: #ffffff;
+}
+.navbar__link-bars:hover {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  height: 2.5em;
+  width: 2.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

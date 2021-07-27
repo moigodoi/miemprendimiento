@@ -1,0 +1,7 @@
+.button{
+    background-color: $tangerine;
+    color: $black;
+    &:hover{
+        background-color: $white;
+    }
+}
