@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import
+'abstracts/variables',
+'abstracts/mixins';
+
+@import
+  'base/base',
+  'base/keyframes',
+  'base/reset',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/grid',
+  'layout/main-section',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/button',
+  'components/inputs',
+  'components/navigation'
