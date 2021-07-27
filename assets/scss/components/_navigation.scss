@@ -1,0 +1,35 @@
+.navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: $black;
+    color: $white;
+    font-weight: $bold;
+    font-family: $ubunbtu;
+    &a{
+        text-decoration: none;
+    }
+}
+
+.navbar-nav__link{
+    color: $white;
+    &:hover{
+        color: $orange;
+    }
+}
+
+.navbar-toggler{
+    border-color: transparent;
+}
+
+.navbar__link-bars{
+    color: $white;
+    &:hover{
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+.navbar-brand{
+    height: 2.5em;
+    width: 2.5rem;
+}

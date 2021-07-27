@@ -1,0 +1,41 @@
+$breakpoints: (
+    'small': 576px,
+    'medium': 768px,
+    'large': 992px,
+    'x-large': 1200px,
+);
+
+
+//mínimos
+$min-xs: 0px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+
+// Color Scheme
+$white: #ffffff;
+$black: #000000;
+$sable: #060606;
+$charcoal: #2e1503;
+$tangerine: #ffaf6d;
+$orange: #ffa500;
+
+//Typography
+$ubuntu: 'Ubuntu', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+//Font-weight 
+$regular: 400;
+$bold: 700;
+
+//Font-sizes 
+$xxxxx-large: 50px;
+$xxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
