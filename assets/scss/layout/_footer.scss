@@ -1,0 +1,53 @@
+.footer{
+    background-color: $black;
+    padding: 2rem;
+    color: $white;
+    text-align: center;
+}
+
+.footer__input{
+    padding-top: 0;
+}
+
+.footer__input input{
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.footer__text{
+    display: block;
+}
+
+.footer__button-container{
+    margin-top: 00.5rem;
+}
+
+@media(min-width:$min-lg){
+    .footer{
+        background-color: $black;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        padding: 2rem;
+        color: $white;
+    }
+    .input{
+        height: 2rem;
+    }
+    .footer__text{
+        display: inline-block;
+    }
+    .footer__button-container{
+        margin-top: 0;
+        display: inline;
+    }
+    .footer__content{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+    }
+}
