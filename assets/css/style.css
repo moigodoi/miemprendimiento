@@ -207,6 +207,107 @@ body {
     grid-column: span 1;
   }
 }
+.courses-section__article {
+  width: 100%;
+  border: 0.1rem dotted #000000;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.courses-section__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.courses-section__wrapper {
+  height: 100%;
+  border: 0.1rem solid black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.courses-section__right-header img {
+  width: 20%;
+  height: auto;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+  margin-left: 42%;
+}
+
+.courses-section__right h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 40%;
+  padding-top: 0.5rem;
+}
+
+.courses-section__right-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.courses-section__right-icons a {
+  margin: auto 0.3rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.courses-section__right-list {
+  background-color: #060606;
+  width: 100%;
+  height: auto;
+  text-align: center !important;
+}
+.courses-section__right-list p {
+  color: #ffffff;
+  padding-top: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.courses-section__right {
+  margin-top: 1rem;
+}
+
+.courses-section__list-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+@media (min-width: 992px) {
+  .courses-section__right-header h3 {
+    margin-left: 40%;
+    padding-top: 0.5rem;
+  }
+
+  .courses-section__list-svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+
+  .courses-section__right {
+    margin-top: 0;
+  }
+}
 .footer {
   background-color: #000000;
   padding: 2rem;
@@ -308,7 +409,7 @@ body {
 }
 
 .navbar-brand {
-  height: 2.5em;
+  height: 2.5rem;
   width: 2.5rem;
 }
 

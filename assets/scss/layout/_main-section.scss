@@ -1,0 +1,101 @@
+.courses-section__article{
+    width: 100%;
+    border: .1rem dotted$black;
+    padding: 0.5rem;
+    margin-bottom: 00.5rem;
+}
+
+.courses-section__content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.courses-section__wrapper{
+    height: 100%;
+    border: .1rem solid black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.courses-section__right-header img{
+    width: 20%;
+    height: auto;
+    padding-bottom: 0.5rem;
+    border-radius: 50%;
+    margin-left: 42%;
+}
+
+.courses-section__right h3{
+    font-size: $medium;
+    font-weight: $bold;
+    margin-left: 40%;
+    padding-top: 0.5rem;
+}
+
+.courses-section__right-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    & a{
+        margin: auto 0.3rem;
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+.courses-section__right-list{
+    background-color: $sable;
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+    & p{
+        color: $white;
+        padding-top: 0.2rem;
+        padding-top: 0.2rem;
+    }
+}
+
+.courses-section__right{
+    margin-top: 1rem;
+}
+
+.courses-section__list-svg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+@media(min-width:$min-lg){
+    .courses-section__right-header h3{
+        margin-left: 40%;
+        padding-top: 0.5rem;
+    }
+
+    .courses-section__list-svg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 6rem;
+    }
+
+    .courses-section__right{
+        margin-top: 0;
+    }
+}
