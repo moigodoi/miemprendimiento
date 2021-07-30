@@ -10214,7 +10214,7 @@ body {
 }
 
 .courses-section__right-header img {
-  width: 20%;
+  width: 30%;
   height: auto;
   padding-bottom: 0.5rem;
   border-radius: 50%;
@@ -10252,6 +10252,13 @@ body {
   color: #ffffff;
   padding-top: 0.2rem;
   padding-top: 0.2rem;
+}
+
+.courses-section__list a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f42c1;
 }
 
 .courses-section__right {
