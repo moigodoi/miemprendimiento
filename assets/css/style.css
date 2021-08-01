@@ -9998,6 +9998,34 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
 .header {
   display: inline-block;
   width: 100%;
@@ -10193,6 +10221,12 @@ body {
   padding: 0.5rem;
   margin-bottom: 0.5rem;
 }
+.courses-section__article p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #060606;
+}
 
 .courses-section__content {
   display: -webkit-box;
@@ -10213,12 +10247,32 @@ body {
   margin-top: 0.5rem;
 }
 
-.courses-section__right-header img {
-  width: 30%;
-  height: auto;
-  padding-bottom: 0.5rem;
+.courses-section__right-header p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #060606;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    max-width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-6 {
+    max-width: 48.75%;
+  }
+}
+.courses__col--thumbnail img {
   border-radius: 50%;
-  margin-left: 42%;
+  border: 1px solid #060606;
+  width: 65%;
+}
+@media (min-width: 768px) {
+  .courses__col--thumbnail img {
+    width: 30%;
+  }
 }
 
 .courses-section__right h3 {
@@ -10242,6 +10296,14 @@ body {
   color: #000000;
 }
 
+.courses__col--white {
+  background-color: #535353;
+}
+.courses__col--white h4 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
 .courses-section__right-list {
   background-color: #060606;
   width: 100%;
@@ -10258,48 +10320,90 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #6f42c1;
+  color: purple;
 }
 
 .courses-section__right {
   margin-top: 1rem;
 }
 
-.courses-section__list-svg {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.couses-section__list-svg {
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 2rem;
+}
+.couses-section__list-svg svg {
+  width: 14em;
+  height: 20em;
+}
+@media (min-width: 768px) {
+  .couses-section__list-svg svg {
+    width: 9.375em;
+    height: 15.625em;
+  }
+}
+@media (min-width: 992px) {
+  .couses-section__list-svg svg {
+    width: 10.625em;
+    height: 16.875em;
+  }
 }
 
-@media (min-width: 992px) {
-  .courses-section__right-header h3 {
-    margin-left: 40%;
-    padding-top: 0.5rem;
-  }
-
-  .courses-section__list-svg {
+/*
+.courses-section__list-svg{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
+}
+
+@media(min-width:$min-lg){
+    .courses-section__right-header h3{
+        margin-left: 40%;
+        padding-top: 0.5rem;
+    }
+
+    .courses-section__list-svg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 6rem;
+    }
+
+    .courses-section__right{
+        margin-top: 0;
+    }
+}*/
+/*
+.footer {
+    background-color: $sable;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+    p {
+      color: $white;
+      font-family: $poppins;
+    }
+    .footer__col--1 p {
+      vertical-align: bottom;
+      margin-bottom: 0;
+    }
   }
 
-  .courses-section__right {
-    margin-top: 0;
-  }
-}
+
+ */
 .footer {
   background-color: #000000;
-  padding: 2rem;
   color: #ffffff;
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1em;
 }
 
 .footer__input {
@@ -10319,6 +10423,16 @@ body {
   margin-top: 0.5rem;
 }
 
+.footer__legal {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .footer__legal {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 992px) {
   .footer {
     background-color: #000000;
@@ -10327,7 +10441,7 @@ body {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding: 2rem;
+    padding-top: 2rem;
     color: #ffffff;
   }
 
@@ -10360,8 +10474,34 @@ body {
   background-color: #ffffff;
 }
 
+.footer__button {
+  background-color: #ffaf6d;
+  color: #2e1503;
+  padding: 0.23em 0.3em;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.14em;
+  transition: all 0.6s ease;
+}
+.footer__button:hover {
+  background-color: #ffffff;
+  color: #060606;
+}
+
 .input:hover {
   background-color: #ffaf6d;
+}
+
+.footer__components input {
+  border-radius: 0.375em;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0.245em;
+}
+.footer__components input:focus {
+  background-color: #ffaf6d;
+  color: #060606;
 }
 
 .navbar {

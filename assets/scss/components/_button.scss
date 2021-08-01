@@ -6,3 +6,18 @@
         background-color: $white;
     }
 }
+
+.footer__button {
+    background-color: $tangerine;
+    color: $charcoal;
+    padding: 0.23em 0.3em;
+    font-size: $small;
+    font-weight: $regular;
+    font-family: $poppins;
+    margin-bottom: 0.14em;
+    transition: all 0.6s ease;
+    &:hover {
+        background-color: $white;
+        color: $sable;
+    }
+}

@@ -2,3 +2,13 @@
     background-color: $tangerine;
 }
 
+.footer__components input {
+    border-radius: 0.375em;
+    font-family: $poppins;
+    font-size: $small;
+    padding: 0.245em;
+    &:focus {
+        background-color: $tangerine;
+        color: $sable;
+    }
+}

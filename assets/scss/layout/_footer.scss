@@ -1,8 +1,30 @@
+/*
+.footer {
+    background-color: $sable;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    
+    p {
+      color: $white;
+      font-family: $poppins;
+    }
+    .footer__col--1 p {
+      vertical-align: bottom;
+      margin-bottom: 0;
+    }
+  }
+  
+  
+ */ 
+
+
 .footer{
     background-color: $black;
-    padding: 2rem;
     color: $white;
     text-align: center;
+    padding-top:  2rem;
+    padding-bottom: 1em;
 }
 
 .footer__input{
@@ -22,6 +44,16 @@
     margin-top: 0.5rem;
 }
 
+.footer__legal {
+    display: flex;
+    flex-direction: column;
+  
+    @include small {
+      flex-direction: row;  
+   }
+  }
+  
+  
 @media(min-width:$min-lg){
     .footer{
         background-color: $black;
@@ -30,7 +62,7 @@
         display: flex;
         -ms-flex-pack: distribute;
         justify-content: space-around;
-        padding: 2rem;
+        padding-top:  2rem;
         color: $white;
     }
     .input{
@@ -51,3 +83,4 @@
         -ms-flex-align: center;
     }
 }
+

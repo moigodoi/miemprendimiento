@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import 
-'vendors/bootstrap/bootstrap.scss';
+'vendors/bootstrap/bootstrap';
 
 @import
 'abstracts/variables',
@@ -23,4 +23,4 @@
 @import
   'components/button',
   'components/inputs',
-  'components/navigation'
+  'components/navigation';

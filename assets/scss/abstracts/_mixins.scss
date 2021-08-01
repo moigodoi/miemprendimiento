@@ -25,3 +25,21 @@
           + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   } 
+
+  @mixin small {
+    @media (min-width: #{$min-sm}) {
+        @content;
+    }
+}
+
+@mixin medium {
+  @media (min-width: #{$min-md}) {
+      @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$min-lg}) {
+      @content;
+  }
+}
