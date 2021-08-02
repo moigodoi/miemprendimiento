@@ -1,3 +1,4 @@
+
 .button {
     background-color: $tangerine;
     color: $black;
@@ -6,7 +7,7 @@
         background-color: $white;
     }
 }
-
+/*
 .footer__button {
     background-color: $tangerine;
     color: $charcoal;
@@ -16,8 +17,11 @@
     font-family: $poppins;
     margin-bottom: 0.14em;
     transition: all 0.6s ease;
+    font-size: $small;
     &:hover {
         background-color: $white;
         color: $sable;
+        font-size: $small;
     }
 }
+*/

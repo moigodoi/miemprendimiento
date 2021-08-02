@@ -9994,6 +9994,10 @@ body {
   border: 0;
 }
 
+.row {
+  margin: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -10382,6 +10386,7 @@ h6 {
 /*
 .footer {
     background-color: $sable;
+    color: $white;
     text-align: center;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -10393,17 +10398,40 @@ h6 {
     .footer__col--1 p {
       vertical-align: bottom;
       margin-bottom: 0;
+      font-size: 11px;
     }
   }
 
+  .footer__legal {
+    display: flex;
+    flex-direction: column;
+    font-size: $small;
 
- */
+    @include small {
+      flex-direction: row;
+   }
+  }
+
+
+
+*/
 .footer {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1em;
+  font-size: 12px;
+}
+.footer p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.footer .footer__col--1 p {
+  vertical-align: bottom;
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 .footer__input {
@@ -10415,21 +10443,20 @@ h6 {
   padding: 0.2rem;
 }
 
-.footer__text {
-  display: block;
-}
-
 .footer__button-container {
   margin-top: 0.5rem;
+  font-size: 12px;
 }
 
 .footer__legal {
   display: flex;
   flex-direction: column;
+  font-size: 12px;
 }
 @media (min-width: 576px) {
   .footer__legal {
     flex-direction: row;
+    font-size: 12px;
   }
 }
 
@@ -10443,19 +10470,23 @@ h6 {
     justify-content: space-around;
     padding-top: 2rem;
     color: #ffffff;
+    font-size: 12px;
   }
 
   .input {
     height: 2rem;
+    font-size: 12px;
   }
 
   .footer__text {
     display: inline-block;
+    font-size: 12px;
   }
 
   .footer__button-container {
     margin-top: 0;
     display: inline;
+    font-size: 12px;
   }
 
   .footer__content {
@@ -10464,6 +10495,7 @@ h6 {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
+    font-size: 12px;
   }
 }
 .button {
@@ -10474,21 +10506,24 @@ h6 {
   background-color: #ffffff;
 }
 
+/*
 .footer__button {
-  background-color: #ffaf6d;
-  color: #2e1503;
-  padding: 0.23em 0.3em;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 0.14em;
-  transition: all 0.6s ease;
+    background-color: $tangerine;
+    color: $charcoal;
+    padding: 0.23em 0.3em;
+    font-size: $small;
+    font-weight: $regular;
+    font-family: $poppins;
+    margin-bottom: 0.14em;
+    transition: all 0.6s ease;
+    font-size: $small;
+    &:hover {
+        background-color: $white;
+        color: $sable;
+        font-size: $small;
+    }
 }
-.footer__button:hover {
-  background-color: #ffffff;
-  color: #060606;
-}
-
+*/
 .input:hover {
   background-color: #ffaf6d;
 }
@@ -10496,7 +10531,7 @@ h6 {
 .footer__components input {
   border-radius: 0.375em;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   padding: 0.245em;
 }
 .footer__components input:focus {

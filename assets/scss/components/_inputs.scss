@@ -1,3 +1,4 @@
+
 .input:hover {
     background-color: $tangerine;
 }
@@ -5,7 +6,7 @@
 .footer__components input {
     border-radius: 0.375em;
     font-family: $poppins;
-    font-size: $small;
+    font-size: 12px;
     padding: 0.245em;
     &:focus {
         background-color: $tangerine;
