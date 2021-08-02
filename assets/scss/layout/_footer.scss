@@ -1,35 +1,3 @@
-/*
-.footer {
-    background-color: $sable;
-    color: $white;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    
-    p {
-      color: $white;
-      font-family: $poppins;
-    }
-    .footer__col--1 p {
-      vertical-align: bottom;
-      margin-bottom: 0;
-      font-size: 11px;
-    }
-  }
-  
-  .footer__legal {
-    display: flex;
-    flex-direction: column;
-    font-size: $small;
-  
-    @include small {
-      flex-direction: row;
-   }
-  }
-  
- 
-
-*/
 .footer{
     background-color: $black;
     color: $white;

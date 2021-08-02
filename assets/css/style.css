@@ -10352,70 +10352,10 @@ h6 {
   }
 }
 
-/*
-.courses-section__list-svg{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-top: 2rem;
-}
-
-@media(min-width:$min-lg){
-    .courses-section__right-header h3{
-        margin-left: 40%;
-        padding-top: 0.5rem;
-    }
-
-    .courses-section__list-svg{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        padding-top: 6rem;
-    }
-}
-*/
 .courses-section__right {
   margin-top: 0;
 }
 
-/*
-.footer {
-    background-color: $sable;
-    color: $white;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
-
-    p {
-      color: $white;
-      font-family: $poppins;
-    }
-    .footer__col--1 p {
-      vertical-align: bottom;
-      margin-bottom: 0;
-      font-size: 11px;
-    }
-  }
-
-  .footer__legal {
-    display: flex;
-    flex-direction: column;
-    font-size: $small;
-
-    @include small {
-      flex-direction: row;
-   }
-  }
-
-
-
-*/
 .footer {
   background-color: #000000;
   color: #ffffff;
