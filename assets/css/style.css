@@ -10046,7 +10046,7 @@ h6 {
   }
   .header__content img {
     margin-bottom: 0.5rem;
-    width: 45%;
+    width: 55%;
     height: auto;
   }
 }
@@ -10378,11 +10378,12 @@ h6 {
         justify-content: center;
         padding-top: 6rem;
     }
+}
+*/
+.courses-section__right {
+  margin-top: 0;
+}
 
-    .courses-section__right{
-        margin-top: 0;
-    }
-}*/
 /*
 .footer {
     background-color: $sable;
@@ -10506,24 +10507,23 @@ h6 {
   background-color: #ffffff;
 }
 
-/*
 .footer__button {
-    background-color: $tangerine;
-    color: $charcoal;
-    padding: 0.23em 0.3em;
-    font-size: $small;
-    font-weight: $regular;
-    font-family: $poppins;
-    margin-bottom: 0.14em;
-    transition: all 0.6s ease;
-    font-size: $small;
-    &:hover {
-        background-color: $white;
-        color: $sable;
-        font-size: $small;
-    }
+  background-color: #ffaf6d;
+  color: #2e1503;
+  padding: 0.23em 0.3em;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.14em;
+  transition: all 0.6s ease;
+  font-size: 14px;
 }
-*/
+.footer__button:hover {
+  background-color: #ffffff;
+  color: #060606;
+  font-size: 14px;
+}
+
 .input:hover {
   background-color: #ffaf6d;
 }
@@ -10531,7 +10531,6 @@ h6 {
 .footer__components input {
   border-radius: 0.375em;
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
   padding: 0.245em;
 }
 .footer__components input:focus {
